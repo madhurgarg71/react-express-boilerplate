@@ -69,10 +69,6 @@ function createWebpackConfig(ENV, entryPoints) {
       _loaders = devLoaders
       break
 
-    case 'hearsay':
-      _plugins = plugins
-      _loaders = productionLoaders
-
     case 'production':
       _plugins = productionPlugins
       _loaders = loaders
