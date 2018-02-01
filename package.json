@@ -1,5 +1,5 @@
 {
-  "name": "super-admin-returns",
+  "name": "webpack-babel-boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,10 +11,6 @@
     "build:hearsay": "NODE_ENV=testing webpack --config webpack.config.js --progress",
     "build": "NODE_ENV=production webpack --config webpack.config.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@bitbucket.org:hipbar-dev/super-admin-returns.git"
   },
   "author": "Madhur Garg",
   "license": "MIT",
