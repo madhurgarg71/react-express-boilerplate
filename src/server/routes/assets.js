@@ -13,7 +13,7 @@ const assets = function assets(app) {
   // const fontsDir = path.resolve(__dirname, "../../client/app/fonts")
   const imagesDir = path.resolve(__dirname, "../../client/app/images")
 
-  // setup asset serving for Hipbar
+  // setup asset serving for your server
   // app.use("/fonts", express.static(fontsDir))
   app.use("/images", express.static(imagesDir));
 

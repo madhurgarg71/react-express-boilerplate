@@ -40,8 +40,7 @@ const plugins = [
     "process.env": {
       NODE_ENV: JSON.stringify(process.env.NODE_ENV)
     }
-  }),
-  new webpack.BannerPlugin('Copyright 2017 Hipbar Pvt. Ltd.')
+  })
 ]
 
 const devPlugins = plugins.concat([

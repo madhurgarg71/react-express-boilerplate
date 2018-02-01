@@ -6,9 +6,7 @@
   "scripts": {
     "clean": "rm -rf ./src/client/build",
     "start:dev": "NODE_ENV=development node index.js",
-    "start:hearsay": "NODE_ENV=testing node index.js",
     "start": "NODE_ENV=production node index.js",
-    "build:hearsay": "NODE_ENV=testing webpack --config webpack.config.js --progress",
     "build": "NODE_ENV=production webpack --config webpack.config.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
